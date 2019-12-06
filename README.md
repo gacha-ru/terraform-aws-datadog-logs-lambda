@@ -36,7 +36,6 @@ module "lambda_datadog" {
 |:--|:--|
 |datadog_logs_lambda_role|lambdaに設定したIAMRoleのARN|
 |lambda_spredirect_qualified_arn|AWS Interrationの[Collect Logs]に設定するARN|
-datadog_logs_lambda_role
 
 ## ex. Codeについて
 [code/logs_monitoring](https://github.com/DataDog/datadog-serverless-functions/tree/master/aws/logs_monitoring)をbaseにしています(2019/4/1 現在)  
